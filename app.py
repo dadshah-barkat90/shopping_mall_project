@@ -5,7 +5,6 @@ from scripts.analysis import perform_all_analysis
 from scripts.extract_data import fetch_data
 from scripts.clean_data import clean_data
 from scripts.store_sql import store_to_sql
-
 import json
 
 st.set_page_config(page_title="Product Analysis App", layout="wide")
