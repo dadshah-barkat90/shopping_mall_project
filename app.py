@@ -1,10 +1,11 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-from analysis import perform_all_analysis
-from data_extraction import fetch_data
-from data_cleaning import clean_data
-from sql_storage import store_to_sql
+from scripts.analysis import perform_all_analysis
+from scripts.extract_data import fetch_data
+from scripts.clean_data import clean_data
+from scripts.store_sql import store_to_sql
+
 import json
 
 st.set_page_config(page_title="Product Analysis App", layout="wide")
